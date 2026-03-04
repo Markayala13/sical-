@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SICAL CLEANING | Premium Commercial & Residential Services</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brandBlue: '#0A2540',    // Corporate Trust Blue
+                        brandLight: '#F8FAFC',   // Ultra clean off-white
+                        brandTeal: '#00B4D8',    // Fresh Water Teal
+                        brandAccent: '#0077B6'   // Action Blue
+                    },
+                    boxShadow: {
+                        'clean': '0 10px 40px -10px rgba(0,0,0,0.08)',
+                        'floating': '0 20px 40px -15px rgba(0,180,216,0.15)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body class="bg-white text-slate-600 antialiased overflow-x-hidden selection:bg-brandTeal selection:text-white">
+
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm transition-all duration-300 py-4 px-6 md:px-12 flex justify-between items-center">
+        <div class="flex items-center gap-2 cursor-pointer">
+            <div class="w-10 h-10 bg-brandBlue rounded-lg flex items-center justify-center text-white text-xl shadow-md">
+                <i class="fa-solid fa-sparkles"></i>
+            </div>
+            <div class="text-2xl font-extrabold tracking-tight text-brandBlue">
+                SICAL<span class="text-brandTeal">.</span>
+            </div>
+        </div>
+        
+        <div class="hidden lg:flex items-center gap-8 font-semibold text-slate-500">
+            <a href="#services" class="hover:text-brandAccent transition-colors">Our Services</a>
+            <a href="#process" class="hover:text-brandAccent transition-colors">How it Works</a>
+            <a href="#gallery" class="hover:text-brandAccent transition-colors">In Action</a>
+        </div>
+
+        <a href="tel:3109414680" class="flex items-center gap-3 bg-brandBlue hover:bg-brandAccent text-white px-6 py-3 rounded-full font-bold transition-all duration-300 shadow-clean hover:-translate-y-0.5">
+            <i class="fa-solid fa-phone-volume"></i> <span class="hidden sm:inline">(310) 941-4680</span>
+        </a>
+    </nav>
+
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-brandLight">
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-blue-50/50 rounded-bl-[100px] z-0"></div>
+        <div class="absolute -top-20 -right-20 w-96 h-96 bg-brandTeal/10 rounded-full blur-[80px] z-0"></div>
+
+        <div class="max-w-7xl mx-auto px-6 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-slate-200 text-brandAccent font-bold text-sm shadow-sm mb-6 uppercase tracking-wide">
+                    <i class="fa-solid fa-location-dot text-brandTeal"></i> Serving California
+                </div>
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold text-brandBlue mb-6 leading-tight tracking-tight">
+                    Immaculate spaces.<br>
+                    <span class="text-brandTeal">Reliable service.</span>
+                </h1>
+                <p class="text-xl text-slate-500 mb-8 leading-relaxed max-w-lg">
+                    Premium commercial and residential cleaning at a reasonable price. From daily maid service to complete building maintenance.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="tel:3109414680" class="bg-brandTeal hover:bg-brandAccent text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 shadow-floating text-center">
+                        Get a Free Estimate
+                    </a>
+                    <a href="#services" class="bg-white hover:bg-slate-50 text-brandBlue border border-slate-200 font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 text-center shadow-sm">
+                        Explore Services
+                    </a>
+                </div>
+            </div>
+            
+            <div class="relative rounded-3xl overflow-hidden shadow-clean" data-aos="fade-left" data-aos-duration="1200">
+                <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Professional Cleaners" class="w-full h-[500px] object-cover">
+                <div class="absolute bottom-6 left-6 bg-white/95 backdrop-blur-sm p-4 rounded-2xl shadow-lg flex items-center gap-4 border border-slate-100">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-2xl">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                        <p class="font-extrabold text-brandBlue">100% Insured</p>
+                        <p class="text-sm font-medium text-slate-500">Trusted Professionals</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <h2 class="text-brandTeal font-bold tracking-widest uppercase text-sm mb-3">What We Do</h2>
+                <h3 class="text-4xl md:text-5xl font-extrabold text-brandBlue mb-6 tracking-tight">Complete Cleaning Solutions</h3>
+                <p class="text-lg text-slate-500">We don't just clean; we maintain the value and hygiene of your property. Our trained staff handles everything from homes to large commercial facilities.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <div class="bg-brandLight rounded-3xl p-8 border border-slate-100 hover:shadow-clean transition-all duration-300 group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center text-brandTeal text-3xl mb-6 group-hover:bg-brandTeal group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-house-chimney-window"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-brandBlue mb-3">Maid Service & Residential</h4>
+                    <p class="text-slate-500 leading-relaxed mb-4">Detailed home cleaning tailored to your lifestyle. Daily, weekly, or bi-weekly visits.</p>
+                </div>
+
+                <div class="bg-brandLight rounded-3xl p-8 border border-slate-100 hover:shadow-clean transition-all duration-300 group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center text-brandTeal text-3xl mb-6 group-hover:bg-brandTeal group-hover:text-white transition-colors">
+                        <i class="fa-regular fa-building"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-brandBlue mb-3">Commercial Janitorial</h4>
+                    <p class="text-slate-500 leading-relaxed mb-4">Dependable building maintenance for offices, retail, and facilities. We work around your hours.</p>
+                </div>
+
+                <div class="bg-brandLight rounded-3xl p-8 border border-slate-100 hover:shadow-clean transition-all duration-300 group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center text-brandTeal text-3xl mb-6 group-hover:bg-brandTeal group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-helmet-safety"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-brandBlue mb-3">Construction Cleanup</h4>
+                    <p class="text-slate-500 leading-relaxed mb-4">Transforming construction sites into move-in ready spaces. Heavy dust removal and fine detailing.</p>
+                </div>
+
+                <div class="bg-brandLight rounded-3xl p-8 border border-slate-100 hover:shadow-clean transition-all duration-300 group" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center text-brandTeal text-3xl mb-6 group-hover:bg-brandTeal group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-brandBlue mb-3">Floor Mastery</h4>
+                    <p class="text-slate-500 leading-relaxed mb-4">Complete stripping, sealing, and waxing services to restore the shine of your hard floors.</p>
+                </div>
+
+                <div class="bg-brandLight rounded-3xl p-8 border border-slate-100 hover:shadow-clean transition-all duration-300 group" data-aos="fade-up" data-aos-delay="500">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center text-brandTeal text-3xl mb-6 group-hover:bg-brandTeal group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-rug"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-brandBlue mb-3">Carpet & Upholstery</h4>
+                    <p class="text-slate-500 leading-relaxed mb-4">Deep hot-water extraction to remove tough stains, allergens, and odors.</p>
+                </div>
+
+                <div class="bg-brandLight rounded-3xl p-8 border border-slate-100 hover:shadow-clean transition-all duration-300 group" data-aos="fade-up" data-aos-delay="600">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center text-brandTeal text-3xl mb-6 group-hover:bg-brandTeal group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-droplet"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-brandBlue mb-3">Power Washing</h4>
+                    <p class="text-slate-500 leading-relaxed mb-4">High-pressure exterior cleaning to blast away dirt, grime, and mildew.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="py-24 bg-brandBlue text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-brandTeal font-bold tracking-widest uppercase text-sm mb-3">Simple Process</h2>
+                <h3 class="text-4xl md:text-5xl font-extrabold tracking-tight">How to get started</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center relative">
+                <div class="hidden md:block absolute top-12 left-[15%] right-[15%] h-[2px] bg-white/20 z-0"></div>
+                
+                <div class="relative z-10" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-24 h-24 mx-auto bg-brandTeal rounded-full flex items-center justify-center text-4xl font-extrabold mb-6 border-4 border-brandBlue">1</div>
+                    <h4 class="text-2xl font-bold mb-3">Call or Text</h4>
+                    <p class="text-blue-100/80">Contact us at (310) 941-4680 to detail your cleaning needs.</p>
+                </div>
+                <div class="relative z-10" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-24 h-24 mx-auto bg-brandTeal rounded-full flex items-center justify-center text-4xl font-extrabold mb-6 border-4 border-brandBlue">2</div>
+                    <h4 class="text-2xl font-bold mb-3">Get a Quote</h4>
+                    <p class="text-blue-100/80">We provide a transparent, reasonable price immediately.</p>
+                </div>
+                <div class="relative z-10" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-24 h-24 mx-auto bg-brandTeal rounded-full flex items-center justify-center text-4xl font-extrabold mb-6 border-4 border-brandBlue">3</div>
+                    <h4 class="text-2xl font-bold mb-3">Enjoy the Clean</h4>
+                    <p class="text-blue-100/80">Our reliable team handles the work, leaving it spotless.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-24 bg-brandLight border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12" data-aos="fade-up">
+                <div>
+                    <h2 class="text-brandTeal font-bold tracking-widest uppercase text-sm mb-3">Gallery</h2>
+                    <h3 class="text-4xl md:text-5xl font-extrabold text-brandBlue tracking-tight">See our work <span class="text-brandTeal">in action.</span></h3>
+                </div>
+            </div>
+
+            <div class="swiper gallerySwiper rounded-3xl !pb-16" data-aos="fade-up" data-aos-delay="200">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide bg-white rounded-3xl overflow-hidden shadow-clean border border-slate-100">
+                        <div class="h-[400px] w-full relative">
+                            <video autoplay loop muted playsinline class="w-full h-full object-cover">
+                                <source src="https://assets.mixkit.co/videos/preview/mixkit-cleaning-a-glass-table-with-a-spray-and-a-cloth-34440-large.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-bold bg-blue-50 text-brandTeal px-3 py-1 rounded-full uppercase tracking-wider">Maid Service</span>
+                            <h4 class="text-xl font-bold text-brandBlue mt-3">Detailed Surface Cleaning</h4>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bg-white rounded-3xl overflow-hidden shadow-clean border border-slate-100">
+                        <div class="h-[400px] w-full relative">
+                            <video autoplay loop muted playsinline class="w-full h-full object-cover">
+                                <source src="https://assets.mixkit.co/videos/preview/mixkit-person-cleaning-a-modern-office-with-a-vacuum-cleaner-41680-large.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-bold bg-blue-50 text-brandTeal px-3 py-1 rounded-full uppercase tracking-wider">Commercial</span>
+                            <h4 class="text-xl font-bold text-brandBlue mt-3">Office Vacuuming & Upkeep</h4>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide bg-white rounded-3xl overflow-hidden shadow-clean border border-slate-100">
+                        <div class="h-[400px] w-full relative">
+                            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-bold bg-blue-50 text-brandTeal px-3 py-1 rounded-full uppercase tracking-wider">Floor Care</span>
+                            <h4 class="text-xl font-bold text-brandBlue mt-3">Pressure Washing & Waxing</h4>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-6 relative z-10 text-center" data-aos="zoom-in">
+            <h2 class="text-5xl md:text-6xl font-extrabold text-brandBlue mb-6 tracking-tight">Ready for a cleaner space?</h2>
+            <p class="text-xl text-slate-500 mb-10 max-w-2xl mx-auto">
+                Stop stressing about the mess. Get a reliable, high-quality cleaning team today.
+            </p>
+            
+            <div class="bg-brandLight border border-slate-200 p-8 md:p-12 rounded-[2rem] shadow-clean inline-block w-full max-w-2xl">
+                <p class="text-slate-400 font-bold mb-2 uppercase tracking-widest text-sm">Direct Booking Line</p>
+                <a href="tel:3109414680" class="block text-5xl md:text-6xl font-extrabold text-brandAccent hover:text-brandTeal transition-colors mb-6 tracking-tighter">
+                    (310) 941-4680
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brandBlue text-blue-100/60 py-12 border-t border-brandAccent/20 text-center">
+        <p>© 2026 Sical Cleaning. Serving California.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        AOS.init({ once: true, offset: 50, duration: 800 });
+        var swiper = new Swiper(".gallerySwiper", {
+            slidesPerView: 1, spaceBetween: 20, loop: true,
+            autoplay: { delay: 4000, disableOnInteraction: false },
+            pagination: { el: ".swiper-pagination", clickable: true },
+            breakpoints: {
+                768: { slidesPerView: 2, spaceBetween: 30 },
+                1024: { slidesPerView: 3, spaceBetween: 30 }
+            }
+        });
+    </script>
+</body>
+</html>
