@@ -84,6 +84,11 @@ export function HeroSection() {
           </div>
         </h1>
 
+        <p className={`mt-3 text-xs font-semibold uppercase tracking-[0.25em] text-primary-foreground/35 ${loaded ? "animate-cinematic-fade-up" : "opacity-0"}`}
+          style={{ animationDelay: "700ms" }}>
+          Lilis Complete Cleaning LLC
+        </p>
+
         {/* Horizontal ticker */}
         <div className={`relative mt-10 w-full max-w-3xl overflow-hidden ${loaded ? "animate-cinematic-fade-in" : "opacity-0"}`}
           style={{ animationDelay: "750ms" }}>
@@ -96,9 +101,9 @@ export function HeroSection() {
           <div className="flex animate-ticker-ltr items-center gap-10 whitespace-nowrap py-3">
             {[
               "General Cleaning","Carpet Care","Construction Cleanup",
-              "Floor Waxing","Power Washing","Janitorial Service","Upholstery",
+              "Floor Waxing","Janitorial Service","Upholstery",
               "General Cleaning","Carpet Care","Construction Cleanup",
-              "Floor Waxing","Power Washing","Janitorial Service","Upholstery",
+              "Floor Waxing","Janitorial Service","Upholstery",
             ].map((item, i) => (
               <span key={i} className="flex shrink-0 items-center gap-3 text-[11px] font-bold uppercase tracking-[0.28em] text-primary-foreground/45">
                 <span className="text-accent/50">◆</span>

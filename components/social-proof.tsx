@@ -35,7 +35,6 @@ const serviceHighlights = [
   "Carpet Cleaning",
   "Construction Cleanup",
   "Floor Waxing",
-  "Power Washing",
   "Janitorial Service",
   "Maid Service",
   "Upholstery Cleaning",

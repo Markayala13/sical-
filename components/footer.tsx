@@ -5,7 +5,6 @@ const services = [
   { label: "Carpet & Upholstery",     href: "#services" },
   { label: "Construction Cleanup",    href: "#services" },
   { label: "Floor Stripping & Waxing",href: "#services" },
-  { label: "Power Washing",           href: "#services" },
   { label: "Janitorial Service",      href: "#services" },
 ]
 

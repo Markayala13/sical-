@@ -46,8 +46,8 @@ export function Navbar() {
 
           {/* Logo */}
           <a href="#" className="flex items-center">
-            <span className={`font-serif font-bold tracking-tight text-primary-foreground transition-all duration-500 ${scrolled ? "text-xl" : "text-2xl"}`}>
-              SICAL <span className="text-accent">CLEANING</span>
+            <span className={`font-serif font-bold tracking-tight text-primary-foreground transition-all duration-500 ${scrolled ? "text-lg" : "text-xl"}`}>
+              Lilis <span className="text-accent">Complete Cleaning</span> <span className="text-primary-foreground/50 font-normal text-sm">LLC</span>
             </span>
           </a>
 
