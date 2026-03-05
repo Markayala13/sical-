@@ -24,7 +24,7 @@ const benefits = [
     icon: Sparkles,
     title: "Complete Service Range",
     description:
-      "From general cleaning to carpet care, construction cleanup, floor waxing, and power washing. One call covers everything.",
+      "From general cleaning to carpet care, construction cleanup, and floor waxing. One call covers everything.",
     stat: "7+",
     statLabel: "Service Types",
   },

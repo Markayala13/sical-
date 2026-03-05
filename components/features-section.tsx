@@ -34,13 +34,6 @@ const services = [
     accent: "from-accent/10 to-accent/[0.02]",
   },
   {
-    icon: Droplets,
-    title: "Power & Pressure Washing",
-    description: "High-pressure cleaning for exteriors, driveways, sidewalks, parking structures, and building facades.",
-    features: ["Building exteriors", "Driveways & lots", "Parking structures"],
-    accent: "from-accent/10 to-accent/[0.02]",
-  },
-  {
     icon: Building2,
     title: "Temporary Janitorial",
     description: "On-demand janitorial staff for events, vacancies, emergencies, or to fill gaps in your regular schedule.",
@@ -86,7 +79,7 @@ export function FeaturesSection() {
           <div className={`max-w-xs shrink-0 ${headerVisible ? "animate-cinematic-slide-left" : "opacity-0"}`}
             style={{ animationDelay: "150ms" }}>
             <p className="text-base leading-relaxed text-muted-foreground">
-              Six specialized services under one roof. From carpet care to power washing — one call covers it all.
+              Six specialized services under one roof. From carpet care to floor waxing — one call covers it all.
             </p>
             <div className="mt-8 flex items-center gap-6 border-t border-border pt-6">
               {[

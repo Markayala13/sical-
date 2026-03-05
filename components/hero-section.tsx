@@ -116,7 +116,7 @@ export function HeroSection() {
         {/* Description */}
         <p className={`mt-8 max-w-xl text-base leading-relaxed text-primary-foreground/55 md:text-lg ${loaded ? "animate-cinematic-fade-up" : "opacity-0"}`}
           style={{ animationDelay: "800ms" }}>
-          General cleaning, carpet &amp; upholstery, construction cleanup, floor stripping &amp; waxing, power washing, and temporary janitorial service.
+          General cleaning, carpet &amp; upholstery, construction cleanup, floor stripping &amp; waxing, and temporary janitorial service.
         </p>
 
         {/* CTA Buttons */}
