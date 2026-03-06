@@ -51,13 +51,13 @@ export function Footer() {
               (213) 297-6853
             </a>
             <a
-              href="mailto:eloscal716@gmail.com"
+              href="mailto:leoscal716@gmail.com"
               className="group flex items-center gap-3 text-sm text-primary-foreground/40 transition-colors hover:text-primary-foreground/70"
             >
               <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-primary-foreground/10 bg-primary-foreground/5 transition-colors group-hover:border-accent/30 group-hover:bg-accent/10">
                 <Mail className="h-4 w-4 transition-colors group-hover:text-accent" />
               </div>
-              eloscal716@gmail.com
+              leoscal716@gmail.com
             </a>
             <span className="flex items-center gap-3 text-sm text-primary-foreground/40">
               <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-primary-foreground/10 bg-primary-foreground/5">
