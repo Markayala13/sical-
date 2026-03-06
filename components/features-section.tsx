@@ -83,7 +83,7 @@ export function FeaturesSection() {
             </p>
             <div className="mt-8 flex items-center gap-6 border-t border-border pt-6">
               {[
-                { value: "6", label: "Services" },
+                { value: "5", label: "Services" },
                 { value: "1", label: "Call needed" },
                 { value: "LA", label: "Coverage" },
               ].map((s, i) => (
