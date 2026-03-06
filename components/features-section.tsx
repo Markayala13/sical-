@@ -62,7 +62,7 @@ export function FeaturesSection() {
           <div className={`relative ${headerVisible ? "animate-cinematic-slide-right" : "opacity-0"}`}>
             {/* Watermark number */}
             <div className="pointer-events-none absolute -left-2 -top-10 select-none font-serif text-[150px] font-bold leading-none text-foreground/[0.04]">
-              06
+              05
             </div>
             <div className="relative">
               <div className="inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/5 px-4 py-1.5">
